@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html id="sitetop" lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/riset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <title>⑤LIG コーディング練習</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-wrap">
+            <div class="header-icon">
+                <a href=""><img src="img/facebook.jpg" alt=""></a>
+                <a href=""><img src="img/twitter.jpg" alt=""></a>
+                <a href=""><img src="img/mail.jpg" alt=""></a>
+            </div><!-- /.header-icon -->
+            <div class="header-logo">
+                <h1><img src="img/logo.png" alt=""></h1>
+            </div><!-- /.header-logo -->
+            <nav class="header-nav">
+                <ul>
+                    <li> <a href="">WEB</a> </li>
+                    <li> <a href="">LIFE</a> </li>
+                    <li> <a href="">キャリア</a> </li>
+                    <li> <a href="">旅</a> </li>
+                    <li> <a href="">マーケティング</a> </li>
+                    <li> <a href="">DevRel</a> </li>
+                    <li> <a href="">英語</a> </li>
+                </ul>
+            </nav><!-- /.header-nav -->
+        </div><!-- /.header-wrap -->
+
+        <!-- ここからハンバーガーメニュー部分 -->
+        <div class="header-wrap_sp">
+            <div class="header-icon">
+                <a href=""><img src="img/facebook.jpg" alt=""></a>
+                <a href=""><img src="img/twitter.jpg" alt=""></a>
+                <a href=""><img src="img/mail.jpg" alt=""></a>
+            </div><!-- /.header-icon -->
+            <div class="header-logo">
+                <h1><img src="img/logo.png" alt=""></h1>
+            </div><!-- /.header-logo -->
+            <input id="menu" type="checkbox">
+            <label for="menu" class="open"><span class="hamburger-line"></span></label>
+            <label for="menu" class="back"></label>
+            <aside>
+                <label for="menu" class="close">x</label>
+                <nav class="header-nav">
+                    <ul class="header-list">
+                        <li> <a href="">WEB</a> </li>
+                        <li> <a href="">LIFE</a> </li>
+                        <li> <a href="">キャリア</a> </li>
+                        <li> <a href="">旅</a> </li>
+                        <li> <a href="">マーケティング</a> </li>
+                        <li> <a href="">DevRel</a> </li>
+                        <li> <a href="">英語</a> </li>
+                    </ul>
+                </nav><!-- /.header-nav -->
+            </aside>
+        </div><!-- /.header-wrap_sp -->
+        <!-- ここまでハンバーガーメニュー部分 -->
+    </header><!-- /.header -->
+
+    <main>
+
+        <section class="mv">
+            <div class="mv-wrap">
+                <ul class="slider">
+                    <li><img src="img/mvimg.png" alt=""></li>
+                    <li><img src="img/mvimg.png" alt=""></li>
+                    <li><img src="img/mvimg.png" alt=""></li>
+                </ul><!-- /.slider -->
+            </div><!-- /.mv-wrap -->
+        </section><!-- /.mv -->
+
+        <section class="main">
+            <div class="main-wrap">
+
+                <section class="main-section">
+                    <a href="">
+                        <div class="main-article">
+                            <div class="main-article_img"><img src="img/image01.jpg" alt=""></div>
+                            <!-- /.main-article_img -->
+                            <div class="main-article_content">
+                                <div class="main-article_item">
+                                    <span class="main-article_time">2016.01.01 FRI</span><!-- /.main-article_time -->
+                                    <span class="main-article_category">WEB</span><!-- /.main-article_category -->
+                                </div><!-- /.main-article_item -->
+                                <h2 class="is-text_overflow">フォントを擬人化して、そのデ<br> ザインがもつ雰囲気を再発見し<br> てみた（欧文編）</h2>
+                                <!-- /.is-text_overflow -->
+                            </div><!-- /.main-article_content -->
+                        </div><!-- /.main-article -->
+                    </a>
+                    <a href="">
+                        <div class="main-article">
+                            <div class="main-article_img"><img src="img/image02.jpg" alt=""></div>
+                            <!-- /.main-article_img -->
+                            <div class="main-article_content">
+                                <div class="main-article_item">
+                                    <span class="main-article_time">2016.01.01 FRI</span><!-- /.main-article_time -->
+                                    <span class="main-article_category">LIFE</span><!-- /.main-article_category -->
+                                </div><!-- /.main-article_item -->
+                                <h2>プレゼントにも最適！デザイン<br> が秀逸な焼酎ボトルコレクショ<br> ン</h2>
+                            </div><!-- /.main-article_content -->
+                        </div><!-- /.main-article -->
+                    </a>
+                    <a href="">
+                        <div class="main-article none-new-png">
+                            <div class="main-article_img"><img src="img/image03.jpg" alt=""></div>
+                            <!-- /.main-article_img -->
+                            <div class="main-article_content">
+                                <div class="main-article_item">
+                                    <span class="main-article_time">2016.01.01 FRI</span><!-- /.main-article_time -->
+                                    <span class="main-article_category">漫画</span><!-- /.main-article_category -->
+                                </div><!-- /.main-article_item -->
+                                <h2>『このマンガがすごい！<br> 2016』に入っててほしい漫画<br> 超個人的5選</h2>
+                            </div><!-- /.main-article_content -->
+                        </div><!-- /.main-article -->
+                    </a>
+                </section><!-- /.main-section -->
+
+                <section class="sidebar">
+                    <div class="sidebar-img"><img src="img/banner.jpg" alt=""></div><!-- /.sidebar-img -->
+                    <div class="sidebar-list">
+                        <div class="sidebar-ttl">
+                            <h2>カテゴリ一覧</h2>
+                        </div><!-- /.sidebar-ttl -->
+                        <div class="sidebar-category">
+                            <ul>
+                                <li><a href="">すべて</a></li>
+                                <li><a href="">殿堂入り</a></li>
+                                <li><a href="">おもしろ</a></li>
+                                <li><a href="">web製作</a></li>
+                                <li><a href="">ライフスタイル</a></li>
+                                <li><a href="">ニュース</a></li>
+                            </ul>
+                        </div><!-- /.sidebar-category -->
+                    </div><!-- /.sidebar-list -->
+                </section><!-- /.sidebar -->
+
+                <section class="top">
+                    <a href="#site-top">
+                        <div class="top-img"><img src="img/top.jpg" alt=""></div><!-- /.top-img -->
+                    </a>
+                </section><!-- /.top -->
+
+            </div><!-- /.main-wrap -->
+        </section><!-- /.main -->
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-wrap">
+            <div class="footer-info">
+                <div class="footer-logo"><a href=""><img src="img/footer.png" alt=""></a></div><!-- /.footer-logo -->
+                <div class="footer-address">
+                    <span>
+                        株式会社LIG　TEL : 03-6240-1253<br>
+                        〒110-0015 東京都台東区東上野2-18-7 共同ビル 10F
+                    </span>
+                </div><!-- /.footer-address -->
+            </div><!-- /.footer-info -->
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="">プライバシーポリシー</a></li>
+                    <li><a href="">メディア・広告掲載について</a></li>
+                    <li><a href="">サイトマップ</a></li>
+                </ul>
+                <div class="footer-copyright"><span>© 2006-2015 LIG INC.</span></div><!-- /.footer-copyright -->
+            </div><!-- /.footer-menu -->
+        </div><!-- /.footer-wrap -->
+    </footer><!-- /.footer -->
+
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                speed: 1000,
+                pause: 3000,
+                pager: false,
+            });
+        });
+    </script>
+
+</body>
+</html>
